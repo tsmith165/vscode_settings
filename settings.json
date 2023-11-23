@@ -1,0 +1,63 @@
+{
+    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.iconTheme": "vscode-icons",
+    "window.menuBarVisibility": "compact",
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.labelFormat": "medium",
+    "editor.rulers": [140],
+    "editor.minimap.enabled": false,
+    "editor.tabCompletion": "on",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.bracketSameLine": true,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.printWidth": 140,
+    "tailwindCSS.includeLanguages": {
+        "html": "html",
+        "javascript": "javascript",
+        "typescript": "typescriptreact",
+        "css": "css"
+    },
+    "vim.startInInsertMode": false,
+    "editor.lineNumbers": "relative",
+    "vim.useRelativeLineNumbers": true,
+    "vim.useSystemClipboard": true,
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-d>": true,
+        "<C-s>": false,
+        "<C-z>": false,
+        "<C-c>": false,
+        "<C-v>": false,
+        "<C-p>": false
+    },
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "p"],
+            "after": ["\"_d", "P"]
+        }
+    ],
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": ["variable", "variable.other"],
+                "settings": {
+                    "foreground": "#fc8210"
+                }
+            },
+            {
+                "scope": ["keyword.control", "storage.type", "keyword.operator"],
+                "settings": {
+                    "foreground": "#BE1DC3"
+                }
+            }
+        ]
+    }
+}
