@@ -28,9 +28,13 @@
         "<C-d>": true,
         "<C-s>": false,
         "<C-z>": false,
+        "<C-Shift-z>": false,
         "<C-c>": false,
         "<C-v>": false,
-        "<C-p>": false
+        "<C-p>": false,
+        "<C-f>": false,
+        "<C-Shift-f>": false,
+        "<C-a>": false
     },
     "vim.normalModeKeyBindingsNonRecursive": [
         {
