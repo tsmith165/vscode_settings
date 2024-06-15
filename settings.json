@@ -1,67 +1,45 @@
 {
-    "workbench.colorTheme": "GitHub Dark Default",
-    "workbench.iconTheme": "vscode-icons",
-    "window.menuBarVisibility": "compact",
-    "workbench.editor.wrapTabs": true,
-    "workbench.editor.labelFormat": "medium",
+    // Editor settings
     "editor.rulers": [140],
     "editor.minimap.enabled": false,
     "editor.tabCompletion": "on",
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.lineNumbers": "relative",
+    "editor.wordWrap": "off",
+    "editor.suggestSelection": "first",
+    "editor.renderWhitespace": "all",
+
+    // Prettier settings
     "prettier.bracketSameLine": true,
     "prettier.singleQuote": true,
     "prettier.tabWidth": 4,
     "prettier.printWidth": 140,
+    "prettier.trailingComma": "es5",
+    "prettier.arrowParens": "always",
+
+    // Workbench settings
+    "workbench.colorTheme": "poimandres",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.editor.labelFormat": "short",
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.titleScrollbarSizing": "large",
+    "workbench.editor.wrapTabs": true,
+    "workbench.sideBar.location": "right",
+
+    // Window settings
+    "window.menuBarVisibility": "visible",
+    "window.zoomLevel": 0,
+
+    // Language-specific settings
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+
+    // Extension-specific settings
     "tailwindCSS.includeLanguages": {
         "html": "html",
         "javascript": "javascript",
         "typescript": "typescriptreact",
         "css": "css"
-    },
-    "vim.startInInsertMode": false,
-    "editor.lineNumbers": "relative",
-    "vim.useRelativeLineNumbers": true,
-    "vim.useSystemClipboard": true,
-    "vim.leader": "<space>",
-    "vim.handleKeys": {
-        "<C-d>": true,
-        "<C-s>": false,
-        "<C-z>": false,
-        "<C-Shift-z>": false,
-        "<C-c>": false,
-        "<C-v>": false,
-        "<C-p>": false,
-        "<C-f>": false,
-        "<C-Shift-f>": false,
-        "<C-a>": false
-    },
-    "vim.normalModeKeyBindingsNonRecursive": [
-        {
-            "before": ["<leader>", "p"],
-            "after": ["\"_d", "P"]
-        }
-    ],
-    "vim.insertModeKeyBindingsNonRecursive": [
-        {
-            "before": ["j", "k"],
-            "after": ["<Esc>"]
-        }
-    ],
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": ["variable", "variable.other"],
-                "settings": {
-                    "foreground": "#fc8210"
-                }
-            },
-            {
-                "scope": ["keyword.control", "storage.type", "keyword.operator"],
-                "settings": {
-                    "foreground": "#BE1DC3"
-                }
-            }
-        ]
     }
 }

@@ -1,0 +1,13 @@
+bradlc.vscode-tailwindcss
+esbenp.prettier-vscode
+ms-python.python
+ms-python.vscode-pylance
+mtxr.sqltools
+mtxr.sqltools-driver-pg
+pmndrs.pmndrs
+quick-lint.quick-lint-js
+supermaven.supermaven
+torreysmith.copyfilepathandcontent
+vscode-icons-team.vscode-icons
+xabikos.javascriptsnippets
+yoavbls.pretty-ts-errors
